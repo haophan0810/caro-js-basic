@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.result {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.turn {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.control {
+    display: flex;
+    padding: 10px 5px;
+    width: 400px;
+    margin: auto;
+}
+
+
+.wrap {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    height: 33.3333%;
+    border: 1px solid;
+    display: flex;
+}
+
+.cell {
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.turn-x {
+    color: red;
+}
+
+.turn-o {
+    color: blue;
+}
